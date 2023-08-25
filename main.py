@@ -5,8 +5,12 @@ def recursive_sum(numbers):
     :param numbers: List of numbers
     :return: Sum of numbers
     '''
-    # TODO: Implement the recursive function to calculate the sum of numbers
+    # Base case: if the list is empty, return 0
+    if len(numbers) == 0:
+        return 0
 
+    # Recursive case: add the first number to the sum of the rest of the list
+    return numbers[0] + recursive_sum(numbers[1:])
 
 if __name__ == '__main__':
     numbers = [5, 3, 9, 1, 7]

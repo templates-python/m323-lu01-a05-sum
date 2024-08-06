@@ -1,0 +1,8 @@
+[
+  {
+    "name": "test_recursive_sum",
+    "function": "test_recursive_sum",
+    "timeout": 10,
+    "points": 2
+  }
+]

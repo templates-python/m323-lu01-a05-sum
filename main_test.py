@@ -1,5 +1,6 @@
 import main
 
+
 def test_recursive_sum():
     assert main.recursive_sum([5, 3, 9, 1, 7]) == 25
     assert main.recursive_sum([1, 1, 1, 1, 1, 1]) == 6
